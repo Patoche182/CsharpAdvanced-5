@@ -11,6 +11,7 @@ namespace CsharpAdvanced_5
             int[] impairs = { 1, 3, 5, 7, 9, 11, 13, 15, 17, 19 };
 
             Console.WriteLine("----------");
+            Console.WriteLine("----------");
             var union = premiers.Union(impairs);
             foreach (int nb in union)
             {
@@ -72,6 +73,7 @@ namespace CsharpAdvanced_5
             {
                 Console.WriteLine(nb);
             }
+            Console.WriteLine("============Fin");
             Console.WriteLine("============Fin");
         }
     }
